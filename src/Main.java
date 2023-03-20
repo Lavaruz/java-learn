@@ -13,6 +13,13 @@ public class Main {
         System.out.println(iniString);
         System.out.println(iniChar);
 
+//          Variable and Constant
+//        String nama1 = "Assami Muzaki";
+        //      java now support var usage without addign specific type, but must init value or error occur
+        var nama2 = "Lavaruz";
+//              java also have contant
+        final String nama = "Assami Muzaki";
+
         System.out.println("Hello World");
     }
 }
