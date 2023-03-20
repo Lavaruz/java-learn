@@ -20,6 +20,32 @@ public class Main {
 //              java also have contant
         final String nama = "Assami Muzaki";
 
-        System.out.println("Hello World");
+
+//          Array
+        String[] iniArray;
+        iniArray = new String[3];
+//
+        int[] iniArray2 = {
+                1,2,3
+        };
+        int[] iniArray3 = new int[]{
+                4,5,6
+        };
+
+        iniArray[0] = "Brodi";
+        iniArray[1] = "Boday";
+        iniArray[2] = "Budiy";
+        System.out.println(iniArray2[0]);
+        System.out.println(iniArray3[0]);
+
+//          SWITCH LAMBDA
+
+        var nilai = 'C';
+
+        switch (nilai){
+            case 'A' -> System.out.println("wow hebat");
+            case 'B' -> System.out.println("Lumayaan");
+            default -> System.out.println("jir jelek");
+        }
     }
 }
