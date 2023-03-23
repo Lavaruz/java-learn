@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d1afcd-e867-4a55-a1d9-2df3d92dd354" name="Changes" comment="adding method">
-      <change afterPath="$PROJECT_DIR$/src/HewanDarat.java" afterDir="false" />
+    <list default="true" id="f9d1afcd-e867-4a55-a1d9-2df3d92dd354" name="Changes" comment="adding inheritance (extends)">
+      <change afterPath="$PROJECT_DIR$/src/assami/latihan/app/CityApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assami/latihan/data/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assami/latihan/data/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HewanApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HewanApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HewanApp">
+  <component name="RunManager" selected="Application.CityApp">
+    <configuration name="CityApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assami.latihan.app.CityApp" />
+      <module name="experiment-001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assami.latihan.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForEach" />
       <module name="experiment-001" />
@@ -61,13 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwitchCase" />
-      <module name="experiment-001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ternari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ternari" />
       <module name="experiment-001" />
@@ -77,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CityApp" />
         <item itemvalue="Application.HewanApp" />
         <item itemvalue="Application.Method" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.Ternari" />
-        <item itemvalue="Application.SwitchCase" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679411394970</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding inheritance (extends)">
+      <created>1679411709132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679411709132</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +159,7 @@
     <MESSAGE value="adding switch" />
     <MESSAGE value="adding ternari" />
     <MESSAGE value="adding method" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding method" />
+    <MESSAGE value="adding inheritance (extends)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding inheritance (extends)" />
   </component>
 </project>
